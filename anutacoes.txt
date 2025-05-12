@@ -26,8 +26,14 @@ Comportamento: Observer;
 - é uma fábrica, assim como o Factory Method e geralmente é composto por múltiplos Factory Methods
 - O padrão abstract factory fornece uma interface para criar famílias de objetos relacionados ou dependentes sem especificar suas classes concretas.
 
+## Proxy
+- Ele controla o acesso ao objeto real, podendo fazer verificações, atrasar o acesso ou adicionar comportamentos extras.
+- O padrão Proxy atua como um intermediário para um objeto real.
+- Ele pode controlar, proteger ou adicionar lógica extra ao uso desse objeto, sem que o código cliente precise saber disso.
+- Proxy é um padrão de projeto que tem a intenção de fornecer um substituto ou marcador de localização para outro objeto para controlar o acesso a esse objeto.
 
-
+## Strategy
+- O padrão Strategy define uma família de algoritmos, encapsula cada um deles e os torna intercambiáveis. O Strategy deixa o algoritmo variar independente dos clientes que o utilizam.
 
 
 
