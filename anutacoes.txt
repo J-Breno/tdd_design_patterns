@@ -1,0 +1,12 @@
+ Design Patterns
+Um bom sistema é que quando você precisa alterar ele, você não vai quebrar o sistema
+
+Categorias do Design Patterns
+Criação: Factory Method, Builder, Abstract Factory;
+Estrutura: Proxy;
+Comportamento: Observer;
+
+Factory Method
+- Facilita a Criação de objetos
+- O padrão Factory Method define uma interface para criar um objeto, mas permite que as classes que implementam a interface decidam qual classe instaciar.
+- O Factory Method permite uma classe delegar a instanciação a subclasse;
