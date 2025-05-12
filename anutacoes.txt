@@ -21,6 +21,18 @@ Comportamento: Observer;
 - ele é bom de usar quando o objeto tem muitos atributos opcionais
 - O padrão builder é um padrão que permite a criação passo-apasso de objetos complexos usando uma sequencia de ações. A construção é controlada por um objeto diretor que apenas precisa conter o tipo do objetos que deve ser criado.
 
+## Abstract Factory
+- Fornecer uma interface para criação de famílias de objetos relacionados ou dependentes sem especificar suas classes concretas.
+- é uma fábrica, assim como o Factory Method e geralmente é composto por múltiplos Factory Methods
+- O padrão abstract factory fornece uma interface para criar famílias de objetos relacionados ou dependentes sem especificar suas classes concretas.
+
+
+
+
+
+
+
+
 
 
 
