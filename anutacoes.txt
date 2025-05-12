@@ -1,4 +1,4 @@
- Design Patterns
+# Design Patterns
 Um bom sistema é que quando você precisa alterar ele, você não vai quebrar o sistema
 
 Categorias do Design Patterns
@@ -6,7 +6,24 @@ Criação: Factory Method, Builder, Abstract Factory;
 Estrutura: Proxy;
 Comportamento: Observer;
 
-Factory Method
+## Factory Method
 - Facilita a Criação de objetos
 - O padrão Factory Method define uma interface para criar um objeto, mas permite que as classes que implementam a interface decidam qual classe instaciar.
 - O Factory Method permite uma classe delegar a instanciação a subclasse;
+- Definir uma interface para criar um objeto, mas deixa as subclasses decidirem que classe instanciar. O factory method permitie adiar a instanciação para subclasses.
+- Fábricas são simplesmente operações que criam objetos.
+- Oculta a lógica da instanciação do código do cliente. O método fábrica será responsável por instanciar as classes desejadas.
+- Um método que cria e retorna objetos, sem o código que usa esse método precisar saber como esse objeto foi criado.
+
+## Builder
+- O Builder é um padrão de projeto que serve para criar objetos complexos passo a passo, de forma mais clara e organizada.
+- Em vez de passar todos os dados de uma vez no construtor (o que pode ser confuso quando tem muitos parâmetros), o Builder permite montar o objeto como se você estivesse preenchendo um formulário, escolhendo só o que precisa, com métodos
+- ele é bom de usar quando o objeto tem muitos atributos opcionais
+- O padrão builder é um padrão que permite a criação passo-apasso de objetos complexos usando uma sequencia de ações. A construção é controlada por um objeto diretor que apenas precisa conter o tipo do objetos que deve ser criado.
+
+
+
+
+
+
+
